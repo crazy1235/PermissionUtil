@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PermissionUtilDemo</string>
+
+    <string name="make_call">Make Call</string>
+
+    <string name="tag_test_fragment">fragment tag</string>
+</resources>

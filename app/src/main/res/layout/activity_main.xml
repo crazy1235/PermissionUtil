@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jacksen.permissionutil.demo.MainActivity">
+
+    <Button
+        android:id="@+id/make_call_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/make_call" />
+
+
+    <fragment
+        class="com.jacksen.permissionutil.demo.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="@string/tag_test_fragment" />
+
+</LinearLayout>
